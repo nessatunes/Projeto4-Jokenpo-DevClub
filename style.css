@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:url("https://source.unsplash.com/1600x900/?landscape");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+button:hover{
+    opacity:0.7 ;
+    transition: opacity 0.5s ease-in;
+}
+#rock{
+background-color:#a200ff ;
+font-size: 50px;
+}
+#paper{
+background-color:#9ee01a ;
+font-size: 50px;
+}
+#scissors{
+background-color: #7dbeed;
+font-size: 50px;
+}
+p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.your-score span{
+color: rgb(14, 14, 213);
+}
+.machine-score span{
+color: crimson;
+}
+
